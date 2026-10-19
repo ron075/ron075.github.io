@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Ron Shaked
+# Hi, I'm Ron Shaked
 
 ### Biochemist · Programmer · Game Developer
 
@@ -18,11 +18,11 @@ I am taking this course both to earn the required academic points and to explore
 
 I work with a variety of programming languages across software development, scientific computing, and game development.
 
-| Language | Language | Language |
+| Language |
 |:---:|:---:|:---:|
 | Python | C# | C++ |
 | R | MATLAB | 
-| Java | JavaScript | 🧱 HTML | 
+| Java | JavaScript | HTML | 
 | GDScript | Kotlin |
 
-## 🚀
+##
