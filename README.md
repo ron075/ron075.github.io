@@ -18,7 +18,7 @@ I am taking this course both to earn the required academic points and to explore
 
 I work with a variety of programming languages across software development, scientific computing, and game development.
 
-| Language |
+| Language | | |
 |:---:|:---:|:---:|
 | Python | C# | C++ |
 | R | MATLAB | 
