@@ -40,29 +40,45 @@ title: Day01
         #ffffff 35%,
         transparent 60%
       ),
-      linear-gradient(
+      repeating-linear-gradient(
         135deg,
-        #8b5cf6,
-        #06b6d4,
-        #ec4899,
-        #f97316,
-        #22c55e,
-        #6366f1,
-        #8b5cf6
+        #8b5cf6 0%,
+        #06b6d4 10%,
+        #ec4899 30%,
+        #f97316 50%,
+        #22c55e 70%,
+        #6366f1 90%,
+        #8b5cf6 100%
       );
 
-    background-size: 100% 100%, 400% 400%;
-    background-position: center, 0% 50%;
-    animation: gradientShift 8s linear infinite;
+    background-size:
+      100% 100%,
+      2000% 100%;
+
+    background-position:
+      center,
+      0% 50%;
+
+    animation: gradientShift 5s linear infinite;
   }
 
   @keyframes gradientShift {
     from {
-      background-position: center, 0% 50%;
+      background-position:
+        center,
+        100% 50%;
     }
 
     to {
-      background-position: center, 100% 50%;
+      background-position:
+        center,
+        0% 50%;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    body::before {
+      animation: none;
     }
   }
 
@@ -112,10 +128,6 @@ title: Day01
   .wrapper {
     max-width: 1000px;
   }
-
-  /* =====================================================
-     HERO SECTION
-     ===================================================== */
 
   .portfolio-hero {
     margin-bottom: 24px;
