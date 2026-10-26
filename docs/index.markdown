@@ -76,6 +76,12 @@ title: Day01
     }
   }
 
+  @media (prefers-reduced-motion: reduce) {
+    body::before {
+      animation: none;
+    }
+  }
+
   /* =====================================================
      HEADER AND FOOTER
      ===================================================== */
