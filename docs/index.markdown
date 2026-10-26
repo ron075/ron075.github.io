@@ -468,7 +468,7 @@ title: Day01
 
     <div class="portfolio-card-content">
       {% for paragraph in site.portfolio.about.paragraphs %}
-        <p>{{ paragraph | escape }}</p>
+        {{ paragraph | markdownify }}
       {% endfor %}
     </div>
   </section>
